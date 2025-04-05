@@ -1,0 +1,19 @@
+{
+  "name": "youtube-audio-search-extension",
+  "version": "1.0.0",
+  "description": "Extract captions from YouTube videos, convert to text, and search within the content",
+  "main": "background.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "firebase": "^9.23.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.98.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Audio Search</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube Audio Search</h1>
+    
+    <div id="status-container">
+      <p id="status">Extension ready. Navigate to a YouTube video to use.</p>
+    </div>
+    
+    <div id="controls" class="hidden">
+      
+      <div id="search-container" class="hidden">
+        <input type="text" id="search-input" placeholder="Search in transcript...">
+        <button id="search-btn">Search</button>
+      </div>
+      
+      <div id="results-container" class="hidden">
+        <h3>Search Results:</h3>
+        <ul id="results-list"></ul>
+      </div>
+      
+      <div id="transcript-container" class="hidden">
+        <h3>Full Transcript:</h3>
+        <div id="transcript-text"></div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="dist/popup.bundle.js"></script>
+</body>
+</html>
