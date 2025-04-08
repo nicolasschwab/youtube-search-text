@@ -5,8 +5,7 @@
   "description": "Extract audio from YouTube videos, convert to text, and search within the content",
   "permissions": [
     "activeTab",
-    "storage",
-    "scripting"
+    "storage"
   ],
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
